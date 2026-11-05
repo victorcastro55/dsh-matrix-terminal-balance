@@ -1,0 +1,49 @@
+{
+  "name": "dsh-matrix-terminal-balance",
+  "version": "1.0.0",
+  "description": "Serves the DeepSeek API-key balance to the dsh-matrix-terminal prompt line over one authenticated host route; the key never leaves the host process.",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/en.json": "./locale/en.json",
+    "./locale/zh.json": "./locale/zh.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "balance",
+    "matrix-terminal"
+  ],
+  "license": "MIT",
+  "author": "Victor Castro Solalto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorcastro55/dsh-matrix-terminal-balance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victorcastro55/dsh-matrix-terminal-balance/issues"
+  },
+  "homepage": "https://github.com/victorcastro55/dsh-matrix-terminal-balance#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

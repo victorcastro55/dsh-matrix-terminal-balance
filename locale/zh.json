@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "矩阵终端 · 余额",
+    "description": "向终端提示符行提供 DeepSeek API 密钥余额；密钥只保留在宿主进程中。"
+  }
+}

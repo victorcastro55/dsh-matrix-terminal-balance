@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Matrix Terminal · Balance",
+    "description": "Serves the DeepSeek API-key balance to the terminal prompt line; the key stays in the Host process."
+  }
+}
