@@ -42,18 +42,14 @@ or log line.
 
 ## Install
 
-```sh
-dsh plugin --profile web add dsh-matrix-terminal-balance
-```
-
-Companion to `dsh-matrix-terminal`; installing it alone is harmless — the route exists and nothing
-reads it. Installing the skin alone is also fine — the prompt line just omits the amount.
-
-### From source
+Not on npm yet — install straight from the repository:
 
 ```sh
 dsh plugin --profile web add github:victorcastro55/dsh-matrix-terminal-balance
 ```
+
+Companion to `dsh-matrix-terminal`; installing it alone is harmless — the route exists and nothing
+reads it. Installing the skin alone is also fine — the prompt line just omits the amount.
 
 ## Using the route from your own plugin
 
