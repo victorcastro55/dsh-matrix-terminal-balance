@@ -7,6 +7,8 @@ the harness already configured. The key is resolved per request through the cred
 for a single outbound call, and never leaves the host process: the browser receives decimal strings
 and nothing else.
 
+![The Matrix Terminal prompt line with the account balance right-aligned](docs/balance.png)
+
 ```
 GET /api/matrix-terminal.balance
 

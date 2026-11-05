@@ -1,6 +1,6 @@
 {
   "name": "dsh-matrix-terminal-balance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serves the DeepSeek API-key balance to the dsh-matrix-terminal prompt line over one authenticated host route; the key never leaves the host process.",
   "type": "module",
   "main": "index.js",
