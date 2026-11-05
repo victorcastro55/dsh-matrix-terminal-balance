@@ -39,14 +39,17 @@ or log line.
 ## Install
 
 ```sh
-dsh plugin --profile web add github:victorcastro55/dsh-matrix-terminal-balance
+dsh plugin --profile web add dsh-matrix-terminal-balance
 ```
 
 Companion to `dsh-matrix-terminal`; installing it alone is harmless — the route exists and nothing
 reads it. Installing the skin alone is also fine — the prompt line just omits the amount.
 
-The repository is private for now, so installs need a GitHub credential pnpm can use
-(`gh auth login` is enough).
+### From source
+
+```sh
+dsh plugin --profile web add github:victorcastro55/dsh-matrix-terminal-balance
+```
 
 ## Using the route from your own plugin
 
