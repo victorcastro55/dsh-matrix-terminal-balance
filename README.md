@@ -9,6 +9,10 @@ and nothing else.
 
 ![The Matrix Terminal prompt line with the account balance right-aligned](docs/balance.png)
 
+The route rides the harness's authenticated `/api` channel: an unauthenticated request gets `401`,
+and a request carrying a foreign `Origin` gets `403`, so the amount is only readable from a page your
+own harness served to you.
+
 ```
 GET /api/matrix-terminal.balance
 
